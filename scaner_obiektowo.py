@@ -1,15 +1,4 @@
-from enum import Enum,auto
 
-class Token(Enum):
-    t_identyfikator = auto()
-    t_liczba=auto()
-    t_plus=auto()
-    t_minus=auto()
-    t_mnozenie=auto()
-    t_dzielenie=auto()
-    t_otwarcie=auto()
-    t_zamkniecie=auto()
-    t_przypisanie=auto()
 
 line=""
 position = 0
