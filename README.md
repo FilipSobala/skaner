@@ -6,8 +6,7 @@ Teoria kompilacji i kompilatory/skaner
 | LICZBA           | `\d+(\.\d+)?`                           | Liczby całkowite i zmiennoprzecinkowe |
 | STRING           | `"*"`                                  | Tekst w cudzysłowie |
 | SLOWO_KLUCZOWE   | `if,else,while,int,double,string,print` | Słowa języka |
-| OPERATOR         | `+,-,*,/,<,>,==,!=`                  | Operatory |
-| PRZYPISANIE      | `=`                                       | Przypisanie wartości |
+| OPERATOR         | `+,-,*,/,<,>,==,!=,=`                  | Operatory |
 | NAWIAS           | `(,),{,},[,]`                      | Nawiasy |
 | SREDNIK          | `;`                                       | Koniec instrukcji |
 | KOMENTARZ        | `//*`                                    | Komentarz jednoliniowy |
