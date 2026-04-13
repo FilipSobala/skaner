@@ -5,9 +5,9 @@ Teoria kompilacji i kompilatory/skaner
 | IDENTYFIKATOR    | `[a-zA-Z_][a-zA-Z0-9_]*`        | Nazwy zmiennych i funkcji |
 | LICZBA           | `\d+(\.\d+)?`                  | Liczby całkowite i zmiennoprzecinkowe |
 | STRING           | `".*?"`                        | Tekst w cudzysłowie |
-| SLOWO_KLUCZOWE   | `\b(if|else|while|int|double|string|print)\b` | Słowa języka |
-| OPERATOR         | `\+|\-|\*|\/|<|>|==|!=`        | Operatory |
+| SLOWO_KLUCZOWE   | `if,else,while,int,double,string,print` | Słowa języka |
+| OPERATOR         | `\+,\-,\*,\/,<,>,==,!=`        | Operatory |
 | PRZYPISANIE      | `=`                             | Przypisanie wartości |
-| NAWIAS           | `\(|\)|\{|\}|\[|\]`            | Nawiasy |
+| NAWIAS           | `\(,\),\{,\},\[,\]`            | Nawiasy |
 | SREDNIK          | `;`                             | Koniec instrukcji |
 | KOMENTARZ        | `//.*`                          | Komentarz jednoliniowy |
